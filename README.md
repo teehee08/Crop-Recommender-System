@@ -10,9 +10,11 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 5. Neural Network
 
 ## Contributors
-@Nafees505
+@teehee08 - Data Extraction, Documentation
 
-@marcushooi
+@Nafees505 - Exploratory Data Analysis
+
+@marcushooi - Model Building
 
 ## Practical Motivation and Data Sample Collection
 
