@@ -11,6 +11,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## Contributors
 @Nafees505
+
 @marcushooi
 
 ## Practical Motivation and Data Sample Collection
