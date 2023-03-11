@@ -1,16 +1,16 @@
 # Welcome to Crop-Recommender-System
 
 ## About
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on crop recommendation based on environmental conditions from XXX. For detailed walkthrough, please view the source code in order from:
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on crop recommendation based on environmental conditions recorded in India. For detailed walkthrough, please view the source code in order from:
 
-1. Data Extraction
-2. Data Visualization
+1. Data Preparation
+2. Data Visualization/Exploratory Data Analysis
 3. Data Resampling and Splitting
 4. Logistic Regression
 5. Neural Network
 
 ## Contributors
-@teehee08 - Data Extraction, Documentation
+@teehee08 - Data Preparation, Documentation
 
 @Nafees505 - Exploratory Data Analysis
 
