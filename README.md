@@ -56,7 +56,7 @@ Workflow for this section:
 
 ## Additional Learning Points from this Project beyond Lectures
 
-- A new EDA technique called XXX
+- A new EDA technique called Point Plot, which is a visualisation that displays points on a specific variable for a specific crop
 
 - Implemented various AI models, including XXX
 
