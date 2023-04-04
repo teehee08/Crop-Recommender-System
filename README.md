@@ -5,8 +5,7 @@
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which aims to recommend the most suitable crop to grow given a set of environmental conditions. For detailed walkthrough, please view the source code in order from:
 
 1. Data Preparation
-2. Data Visualization/Exploratory Data Analysis
-3. XXX
+2. Exploratory Data Analysis (EDA) with ML
 
 ## Contributors
 
@@ -42,7 +41,8 @@ Workflow for this section:
 ## Exploratory Data Analysis 
 The EDA for this dataset was done as such:
 1. dfnumeric is a dataframe that was constructed to extract out all the numeric variables for the dataset. In this case, the numeric variables are "Nitrogen", "Phosphorus", "Potassium', "Temperature", "Humidity", "pH" and "Rainfall". "Crop" was determined to be a categorical value.
-2. Relvant visualisations were done for each variable. 3 types of plot were used; Boxplot, Histrogam and the violin plot.
+
+2. Relevant visualisations were done for each variable. 3 types of plot were used; Boxplot, Histrogam and the violin plot.
   -Lessons that we can learn from it:
       Looking at the histogram and violinplot:
           1. The "Temperature" variable, it somewhat follows a normal distribution.      
@@ -61,16 +61,16 @@ The EDA for this dataset was done as such:
 
 4.Following this, we create another datafram called "dfCategorical"
    - As the name suggests, this dataframe is used to bring out the categorical variables from the dataset. In this case, there is only one; "Crop"
+   
 5. We also find out that there are 22 different crops present.
+
 6. Under the dataset, we found out that there are 2200 rows in the dataset, indicating that there are 2200 data in the dataset. However, we want to determine number of crops for each crop, ie. How many rice crops are there? How many apple crops are there? etc.
     - Thus, the next code brings out the number of crops for each crop, and shows that there are an equal number of 100 crops for wach crop.
     - To better visualise this, a histogram was used, and we can visually see that each crop has the same number of crops.
+    
 7. In order to find out if there are any correlation between the variables, a heatmap was generatated
     - The lighter the colour of the box, the highter the positive correlation, the darker the colour of the box, the higher the negative correlation.
     - Instantly, we can poin out that "Phosphorus" and "Potassium" has the highest correlation of 0.74(2dp).
-
-
-
 
 ## 5. Algorithm Optimisation and Machine Learning
 
@@ -143,18 +143,11 @@ When we finish comparing the models, we will do a feature importance analysis of
 
 Using the Random Forest Mode, we will create a crop recommendation system with a simple GUI where user can input the Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, Rainfall. The crop recommendation system will then recommend a crop best suited to the conditions input.
 
-
-## 6. Conclusions Derived
-
-
-## 7. Ethical Considerations and Intelligent Decisions
-
-
-## 8. Future Works that can be done
+## 6. Future Works that can be done
 
 - Instead of recommending the crop given a set of conditions, future works can be done on predicting the optimal conditions for each type of crop.
 
-## 9. Additional Learning Points from this Project beyond Lectures
+## 7. Additional Learning Points from this Project beyond Lectures
 
 - A new EDA technique called Point Plot, which is a visualisation that displays points on a specific variable for a specific crop
 
@@ -171,7 +164,6 @@ Using the Random Forest Mode, we will create a crop recommendation system with a
     2. f1 score
     3. Cross validation
     4. feature importance analysis
-
 
 - Collaborating on GitHub
 
