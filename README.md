@@ -167,5 +167,5 @@ Using the Random Forest Mode, we will create a crop recommendation system with a
 
 - Collaborating on GitHub
 
-## 10. References
+## 8. References
 - https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4
