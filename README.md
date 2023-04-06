@@ -101,8 +101,8 @@ The problem we are facing is a classification problem. Most of the analysis and 
 ### 5.3 Anomaly detection & Data Cleaning
 As Previously Detected, there is no anomaly in each class of label (crop). There is also no missing values. 
 
-### 5.4 Seperation of test and train set
-In the seperation of test and train set, we will use a 70/30 split. Additionally, we will utilise stratified sampling methods.
+### 5.4 Separation of test and train set
+In the separation of test and train set, we will use a 70/30 split. Additionally, we will utilise stratified sampling methods.
 
 Stratified random sampling ensure that for each class of label (crop), 70% will be used in training. If stratified is not used, 70% of datapoints will will be chosen from the entire dataset. This could lead to imbalance selection for each label. 
 
@@ -170,3 +170,7 @@ Using the Random Forest Mode, we will create a crop recommendation system with a
 ## 8. References
 - https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4
 - https://seaborn.pydata.org/generated/seaborn.pointplot.html
+- https://medium.com/mlearning-ai/performance-measure-of-a-machine-learning-model-fb657263bf98
+- https://medium.com/swlh/feature-importance-hows-and-why-s-3678ede1e58f
+- https://scikit-learn.org/stable/modules/svm.html
+- https://www.lightly.ai/post/train-test-split-in-deep-learning
