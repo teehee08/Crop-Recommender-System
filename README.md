@@ -36,27 +36,40 @@ Workflow for this section:
     - Missing values
 
     - Duplicate values
+    
 2. Variable names were also changed so as to ensure that anyone who is reading the dataset have a sense of what the variable represents. For example, "N" was changed to Nitrogen, "P" was changed to Phosphorus.
 
 ## Exploratory Data Analysis 
 The EDA for this dataset was done as such:
+
 1. dfnumeric is a dataframe that was constructed to extract out all the numeric variables for the dataset. In this case, the numeric variables are "Nitrogen", "Phosphorus", "Potassium', "Temperature", "Humidity", "pH" and "Rainfall". "Crop" was determined to be a categorical value.
 
 2. Relevant visualisations were done for each variable. 3 types of plot were used; Boxplot, Histrogam and the violin plot.
+
   -Lessons that we can learn from it:
+  
       Looking at the histogram and violinplot:
-          1. The "Temperature" variable, it somewhat follows a normal distribution.      
+      
+          1. The "Temperature" variable, it somewhat follows a normal distribution.     
+          
           2. The "Rainfall" variable is more skewed to the left.
+          
           3. The "Humidity" variable is more skewed to the right.
+          
           4. The "Potassium" variable is more skewed to the left, with the execption of some outliers on the right
       Looking at the boxplot:
+      
           1. The "Nitrogen" variable does not seem to have any outliers present
-          2. The "Phosphorus" variable do have quite a number of outliers, but a clustered closer to the boxplot, on the right
+          
+          2. The "Phosphorus" variable do have quite a number of outliers, but a clustered closer to the boxplot, on the right.
+          
           3. This is quite different for the "Potassium" variable, which has outliers far from the boxplot on the right.
+          
           4. The "Temperature" variable has outliers clustered at both sides of the boxplot.
           
 3. Through the visualisation, despite us knowing that that there are outliers for most of the variables, we are unable to determine how much ouliers each variable has. 
     - Thus, the next code serves the purpose to calculate the number of outliers for each variable. As predicted, "Nitrogen" has no variables, and " Potassium" has the most variable.
+    
     - Despite finding out the number of outliers, it should be of utmost importance that removing the outliers could be dangerous for out dataset, as we need to know the data of all variables to find out out the right crop for a specific set of conditions.
 
 4.Following this, we create another datafram called "dfCategorical"
@@ -65,12 +78,16 @@ The EDA for this dataset was done as such:
 5. We also find out that there are 22 different crops present.
 
 6. Under the dataset, we found out that there are 2200 rows in the dataset, indicating that there are 2200 data in the dataset. However, we want to determine number of crops for each crop, ie. How many rice crops are there? How many apple crops are there? etc.
+
     - Thus, the next code brings out the number of crops for each crop, and shows that there are an equal number of 100 crops for wach crop.
+    
     - To better visualise this, a histogram was used, and we can visually see that each crop has the same number of crops.
     
-7. In order to find out if there are any correlation between the variables, a heatmap was generatated
+7. In order to find out if there are any correlation between the variables, a heatmap was generated.
+
     - The lighter the colour of the box, the highter the positive correlation, the darker the colour of the box, the higher the negative correlation.
-    - Instantly, we can poin out that "Phosphorus" and "Potassium" has the highest correlation of 0.74(2dp).
+    
+    - Instantly, we can point out that "Phosphorus" and "Potassium" have the highest correlation of 0.74 (2dp).
 
 ## 5. Algorithm Optimisation and Machine Learning
 
@@ -83,7 +100,9 @@ The problem we are facing is a classification problem. Most of the analysis and 
 ### 5.2 We will perform the following:
 
 1. Anomaly detection & Data Cleaning
-2. Seperation of test and train set
+
+2. Separation of test and train set
+
 3. Train Machine learning models
     1. Single Decision Tree
     2. Random Forest
