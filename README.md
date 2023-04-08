@@ -48,7 +48,7 @@ The EDA for this dataset was done as such:
 
 - Lessons that we can learn from it:
   
-      Looking at the histogram and violinplot:
+      Looking at the histogram and violinplot respectively:
       
           1. The "Temperature" variable, it somewhat follows a normal distribution.     
           
@@ -72,7 +72,7 @@ The EDA for this dataset was done as such:
     
     - Despite finding out the number of outliers, it should be of utmost importance that removing the outliers could be dangerous for out dataset, as we need to know the data of all variables to find out out the right crop for a specific set of conditions.
 
-4.Following this, we create another datafram called "dfCategorical"
+4. Following this, we create another datafram called "dfCategorical"
    - As the name suggests, this dataframe is used to bring out the categorical variables from the dataset. In this case, there is only one; "Crop"
    
 5. We also find out that there are 22 different crops present.
