@@ -44,9 +44,9 @@ The EDA for this dataset was done as such:
 
 1. dfnumeric is a dataframe that was constructed to extract out all the numeric variables for the dataset. In this case, the numeric variables are "Nitrogen", "Phosphorus", "Potassium', "Temperature", "Humidity", "pH" and "Rainfall". "Crop" was determined to be a categorical value.
 
-2. Relevant visualisations were done for each variable. 3 types of plot were used; Boxplot, Histrogam and the violin plot.
+2. Relevant visualisations were done for each variable. 3 types of plot were used; Boxplot, Histogram and the violin plot.
 
-  -Lessons that we can learn from it:
+- Lessons that we can learn from it:
   
       Looking at the histogram and violinplot:
       
