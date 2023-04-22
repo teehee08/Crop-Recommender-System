@@ -57,6 +57,7 @@ The EDA for this dataset was done as such:
           3. The "Humidity" variable is more skewed to the right.
           
           4. The "Potassium" variable is more skewed to the left, with the execption of some outliers on the right
+          
       Looking at the boxplot:
       
           1. The "Nitrogen" variable does not seem to have any outliers present
@@ -88,6 +89,9 @@ The EDA for this dataset was done as such:
     - The lighter the colour of the box, the highter the positive correlation, the darker the colour of the box, the higher the negative correlation.
     
     - Instantly, we can point out that "Phosphorus" and "Potassium" have the highest correlation of 0.74 (2dp).
+    - However, we need to consider the correlation of variables for each crop. Hence, a specific dataframes and heatmaps were set up between each variables for each crop. For all the crops, we can instantly see that the variables are weakly correlated to each other.
+    
+8.  Boxplots were also set up for each variable, comparing all the crops. However, they contain irrelavant information that can be removed. Hence, a pointplot was set up. Each point serves as the mean of the variable for each crop, with a line connecting each point. This plot serves as a tool to see how different the variables are across all the crops
 
 ## 6. Algorithm Optimisation and Machine Learning
 
