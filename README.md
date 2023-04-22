@@ -119,7 +119,8 @@ The problem we are facing is a classification problem. Most of the analysis and 
     1. Accuracy
     2. f1 score
     3. Cross validation
-6. Create a crop recommendation system
+6. Feature Importance analysis of our chosen model
+7. Create a crop recommendation system
 
 ### 6.3 Anomaly detection & Data Cleaning
 As Previously Detected, there is no anomaly in each class of label (crop). There is also no missing values. 
@@ -142,9 +143,7 @@ As identified, the problem we have is a classification model. Hence we utilise t
     3. Neural Network
     4. Support Vector Machine
     5. Logistical Regression
-    6. Linear Regression (to show error)
 
-Note: We intentionally also train a linear regression model to show that when a wrong model is used for a wrong problem, the outcome is useless.
 
 ### 6.6 Saving of trained models using pickle
 
@@ -160,11 +159,13 @@ After Training out models it is important for us to perform a comparison. We wil
     
 The reason we utilise these comparisons is because they are the more common metrics used for classificaiton models.
 
-When we finish comparing the models, we will do a feature importance analysis of the selected model (Random Forest)
-
 ### 6.8 Create a crop recommendation system
 
-Using the Random Forest Mode, we will create a crop recommendation system with a simple GUI where user can input the Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, Rainfall. The crop recommendation system will then recommend a crop best suited to the conditions input.
+When we finish comparing the models, we will do a feature importance analysis of the selected model (Random Forest). Feature Importance will show us whih features were more essential in prediction, and which are less essential.
+
+### 6.9 Create a crop recommendation system
+
+Using the Random Forest Model, we will create a crop recommendation system with a simple GUI (craeted using Tkinter) where user can input the Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, Rainfall. The crop recommendation system will then recommend a crop best suited to the conditions input.
 
 ## 7. Future Works that can be done
 
@@ -180,7 +181,6 @@ Using the Random Forest Mode, we will create a crop recommendation system with a
     3. Neural Network
     4. Support Vector Machine
     5. Logistical Regression
-    6. Linear Regression (to show error)
 
 - Learnt additional performance metrics used to evaluate AI models, including
     1. Accuracy
